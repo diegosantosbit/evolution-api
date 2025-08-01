@@ -47,9 +47,9 @@ services:
     ports:
       - 5432:5432
     environment:
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=pass
-      - POSTGRES_DB=evolution_db
+      - POSTGRES_USER=railway
+      - POSTGRES_PASSWORD=i31Ecm15YvEw8CB5KgbKXGkI~7qfbC3r
+      - POSTGRES_DB=railway
       - POSTGRES_HOST_AUTH_METHOD=trust
     volumes:
     - postgres_data:/var/lib/postgresql/data
